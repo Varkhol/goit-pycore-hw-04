@@ -1,8 +1,8 @@
-from pathlib import PurePath
+from pathlib import Path
 from decimal import Decimal
 
 def total_salary(path):
-    p = PurePath(path)
+    p = Path(path)
 
     total = Decimal("0.00")
     count = 0

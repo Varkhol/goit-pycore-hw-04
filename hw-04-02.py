@@ -1,7 +1,7 @@
-from pathlib import PurePath
+from pathlib import Path
 
 def get_cats_info(path):
-    p = PurePath(path)
+    p = Path(path)
 
     cats_info = [] 
 
